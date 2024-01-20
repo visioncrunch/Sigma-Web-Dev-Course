@@ -1,106 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+    <title>Exercise 5</title>
     <style>
-        * {
+        *
+        {
             margin: 0;
             padding: 0;
         }
-
-        header {
-            position: sticky;
-            top: 0;
+        :root{
+            --nav_background:rgb(255, 161, 247);
         }
-
-        nav {
-            background-color: pink;
-            height: 83px;
-        }
-
-        main {
-            background-color: black;
-            color: white;
-            padding: 34px;
-        }
-
-        .container {
-            background-color: green;
-            margin: 12px 34px;
-            padding: 55px 23px;
-            text-align: center;
-        }
-
-        .box1 {
-            background-color: palevioletred;
-            height: 70vh;
-            width: 45%;
-            display: inline-block;
-            margin: 0 12px;
-        }
-
-        .box2 {
-            background-color: blue;
-            height: 70vh;
-            width: 45%;
-            display: inline-block;
-            margin: 0 12px;
-        }
-
-        .text-box {
-            padding: 34px;
-            border: 2px solid white;
-            margin: 50px 34vw;
-            font-size: 2em;
-            border-radius: 13px;
-
-        }
-
-        .orange-box {
-            height: 32px;
-            width: 32px;
-            background: orange;
+        header{
             position: fixed;
-            bottom: 12px;
-            right: 23px;
-            border-radius: 60px;
+            display:flex;
+            justify-content:space-evenly;
+            background-color: var(--nav_background);
+            color:white;
+            padding:10px;
+            width:100vw;
+            height:2vh;
+            top:0px;
+
+        }
+        main{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: rgb(11, 110, 53);
+            width:100vw;
+            height:60vh;
+            margin-bottom: 5px;
+        }
+        main section{
+            width:40vh;
+            height:40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sec1{
+            background-color: hsl(0, 100%, 82%);
+        }
+        .sec2{
+                background-color: #1cace6;
+        }
+        body{
+            background-color: black;
+            height: 150vh;
+            position: absolute;
         }
 
-        footer {
-            height: 100px;
-            background-color: bisque;
+        .sigma{
+            text-align: center;
+            color:white;
+            background-color: black;
+            width:80vw;
+            margin:auto;
+            height:5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            border: 2px solid white;
+        }
+        footer{
+            text-align: center;
+            width:100vw;
+            height:5vh;
+            position:absolute;
+            bottom: 0px;
+            background-color: grey;
+        }
+        .circle{
+            background-color: orange;
+            width: 50px;
+            height:50px;
+            position: fixed;
+            bottom: 10px;
+            right:10px;
+            z-index: 1;
+            border-radius: 60px;
+
         }
     </style>
 </head>
-
 <body>
     <header>
-        <nav>
-
-        </nav>
+        <span>Home</span><span>About</span><span>Help</span><span>Resources</span><span>Account</span>
     </header>
-
     <main>
-        <div class="container">
-            <div class="box1"></div>
-            <div class="box2"></div>
+        <section class="sec1">Section1</section>
+        <section class="sec2">Section2</section>
+    </main>        
+        <div class="sigma">
+            Welcome to Sigma Web Development Express
         </div>
-
-        <div class="text-box">
-            <p>Welcome to Sigma Web Development Express</p>
-        </div>
-
-        <div class="orange-box">
-
-        </div>
-    </main>
-
+    <span class="circle"></span>
     <footer>
-
+        Copyright Reserved
     </footer>
-</body>
 
+</body>
 </html>
