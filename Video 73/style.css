@@ -1,0 +1,59 @@
+.card{
+    background-color: black;
+    width: 900px;
+    height:120px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+}
+.cName, .views, .monthsOld, .dot, .ago{
+    /* background-color: yellowgreen; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.thumbnail{
+    /* background-color: rgb(65, 65, 25); */
+    /* display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    justify-content: center;
+    align-items: center; */
+    width:200px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+img{
+    /* grid-row: 1;
+    grid-column: 1; */
+    border-radius: 10px;
+
+}
+.time{
+    /* grid-row: 1;
+    grid-column: 1;
+    align-self: flex-end;
+    justify-self: flex-end; */
+    position: absolute;
+    bottom: 15px;
+    right:15px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+
+}

@@ -13,3 +13,6 @@ Array.from(boxes).forEach(e=>{
     e.style.backgroundColor = getRandomColor()
     e.style.color = getRandomColor()
 })
+
+
+// a+ Math.random()(b-a) gives random nubmer in range a to b

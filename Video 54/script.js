@@ -1,15 +1,11 @@
-alert("Hello guys");
-console.log("Hello world");
-var a = prompt("Enter you name");
-if(a)
-{
-    console.log("yeah he wrote something");
-
-
+alert("hello Guys")
+console.log("Hello Guys")
+var a = prompt("Are you sure you want to blast your computer")
+if(a=="yes"){
+    console.log("Computer is being destroyed");
 }
-else
-{
-    console.log("no he didn't wrote something");
+if(a=="no"){
+    console.log("Your computer is safe")
 }
-console.log("your input was",a);
-document.title="Hello";
+document.title="Hey i am goofyy";
+document.body.style.backgroundColor="green";

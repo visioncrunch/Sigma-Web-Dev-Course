@@ -29,8 +29,12 @@ let a = 1;
 //     i++;
 // }
 
-let i = 10;
+let i = 1;
 do {
     console.log(i)
     i++;
 } while (i<6);
+for (let I = 0; I < 10; I++) {
+    console.log(I);
+    
+}

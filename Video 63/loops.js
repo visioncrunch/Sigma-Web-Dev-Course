@@ -10,6 +10,9 @@ let a = [1, 93, 5, 6, 88]
 // a.forEach((value, index, arr)=>{
 //     console.log(value, index, arr)
 // })
+// a.forEach(value => {
+//     console.log(value);
+// });
 
 // let obj = {
 //     a: 1,
@@ -23,6 +26,9 @@ let a = [1, 93, 5, 6, 88]
 //     }
 // }
 
-for (const value of a) {
-    console.log(value)
-}
+// for (const value of a) {
+//     console.log(value)
+// }
+// for (const iterator of a) {
+//     console.log(iterator);
+// }

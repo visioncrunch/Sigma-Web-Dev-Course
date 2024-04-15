@@ -10,7 +10,7 @@ let _a = "Shubham";
 // console.log(a +  b + 8);
 // console.log(typeof a, typeof b, typeof c);
 {
-    // let a = 66;
+    let a = 66;
     console.log(a)
 }
 console.log(a)
